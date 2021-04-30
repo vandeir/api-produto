@@ -43,6 +43,6 @@ jobs:
           # Path to the Dockerfile
           file: ./src/Dockerfile
           push: true
-          tags:
+          tags: |
             vanedu/api-bootcamp:latest
-#            vanedu/api-bootcamp:${{github.run_number}}
+            vanedu/api-bootcamp:${{github.run_number}}
